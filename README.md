@@ -10,9 +10,20 @@ problems/
 ├── abroad/       # 国际竞赛
 ├── university/   # 大学竞赛
 └── original/     # 原创竞赛
+
+tools/
+├── merge_temp.py     # 合并 temp.json 到 competitions.json
+└── check_valid.py    # 校验 competitions.json 及对应文件夹
 ```
 
 `problems/{source}/{name}` 目录名对应 `competitions.json` 中每个条目的 `source` 和 `name` 字段。例如 `problems/china/bj/` 表示 source 为 `"china"`、name 为 `"bj"` 的竞赛。
+
+## tools 工具说明
+
+`tools/` 目录包含项目辅助工具：
+
+- **`merge_temp.py`** — 将 `temp.json`（API 原始响应）中的新比赛自动转换为 `competitions.json` 格式并合并。运行时会根据新增比赛的 `source` 和 `name` 自动创建 `problems/{source}/{name}/info.json`（空 JSON 对象）。
+- **`check_valid.py`** — 校验工具，检查 `competitions.json` 中所有条目的 UUID 合法性、id/name 唯一性、years 重复性，以及 `problems/{source}/{name}/` 文件夹和 `info.json` 是否存在。
 
 ## competitions.json 数据结构
 
