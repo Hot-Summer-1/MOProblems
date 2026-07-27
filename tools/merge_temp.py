@@ -41,6 +41,7 @@ import json
 import uuid
 import os
 import sys
+from collections import OrderedDict
 
 BASE_DIR = ".."
 TEMP_FILE = os.path.join(BASE_DIR, "temp.json")
@@ -70,10 +71,33 @@ def convert_item(raw):
     }
 
 
+def make_year_entry():
+    """返回一个年份条目的标准结构"""
+    return OrderedDict([
+        ("count", 0),
+        ("no_problem_content", True),
+        ("begin_index", 0)
+    ])
+
+
 def create_problem_folder(item):
-    """根据比赛信息创建 problems/{source}/{name}/info.json（空JSON对象 {}）"""
+    """根据比赛信息创建或更新 problems/{source}/{name}/info.json
+
+    info.json 格式：
+    {
+      "2025(A卷)": {
+        "count": 0,
+        "no_problem_content": true,
+        "begin_index": 0
+      },
+      ...
+    }
+
+    每个 year 对应一个条目，先读取已有内容，再补充缺失的 year。
+    """
     source = item.get("source", "")
     name = item.get("name", "")
+    years = item.get("years", [])
     if not source or not name:
         return
 
@@ -81,12 +105,31 @@ def create_problem_folder(item):
     os.makedirs(folder_path, exist_ok=True)
 
     info_path = os.path.join(folder_path, "info.json")
-    if not os.path.exists(info_path):
-        with open(info_path, "w", encoding="utf-8") as f:
-            json.dump({}, f, ensure_ascii=False, indent=2)
-        print(f"  [创建] {info_path}")
+
+    # 读取现有内容
+    existing_data = OrderedDict()
+    if os.path.exists(info_path):
+        with open(info_path, "r", encoding="utf-8") as f:
+            existing_data = json.load(f, object_pairs_hook=OrderedDict)
+        existing_keys = set(existing_data.keys())
     else:
-        print(f"  [跳过] {info_path} 已存在")
+        existing_keys = set()
+
+    # 补充缺失的 year
+    added_count = 0
+    for year in years:
+        if year not in existing_keys:
+            existing_data[year] = make_year_entry()
+            added_count += 1
+
+    # 写回文件
+    with open(info_path, "w", encoding="utf-8") as f:
+        json.dump(existing_data, f, ensure_ascii=False, indent=2)
+
+    if added_count > 0:
+        print(f"  [更新] {info_path} (新增 {added_count} 个年份)")
+    else:
+        print(f"  [跳过] {info_path} 已是最新")
 
 
 def main():
