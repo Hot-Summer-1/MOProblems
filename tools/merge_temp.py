@@ -42,7 +42,7 @@ import uuid
 import os
 import sys
 
-BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+BASE_DIR = ".."
 TEMP_FILE = os.path.join(BASE_DIR, "temp.json")
 COMPETITIONS_FILE = os.path.join(BASE_DIR, "competitions.json")
 
@@ -68,6 +68,25 @@ def convert_item(raw):
         "years": years,
         "source": source_val,
     }
+
+
+def create_problem_folder(item):
+    """根据比赛信息创建 problems/{source}/{name}/info.json（空JSON对象 {}）"""
+    source = item.get("source", "")
+    name = item.get("name", "")
+    if not source or not name:
+        return
+
+    folder_path = os.path.join(BASE_DIR, "problems", source, name)
+    os.makedirs(folder_path, exist_ok=True)
+
+    info_path = os.path.join(folder_path, "info.json")
+    if not os.path.exists(info_path):
+        with open(info_path, "w", encoding="utf-8") as f:
+            json.dump({}, f, ensure_ascii=False, indent=2)
+        print(f"  [创建] {info_path}")
+    else:
+        print(f"  [跳过] {info_path} 已存在")
 
 
 def main():
@@ -105,6 +124,7 @@ def main():
             existing.append(item)
             existing_names.add(item["name"])
             merged_count += 1
+            create_problem_folder(item)
             print(f"  [+] 新增: {item['display_name']} ({item['name']})")
         else:
             print(f"  [~] 跳过(已存在): {item['display_name']} ({item['name']})")

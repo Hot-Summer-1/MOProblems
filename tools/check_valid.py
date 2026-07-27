@@ -1,7 +1,11 @@
 import json
 import re
+import os
 
-with open('competitions.json', 'r', encoding='utf-8') as f:
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+COMPETITIONS_FILE = os.path.join(BASE_DIR, "competitions.json")
+
+with open(COMPETITIONS_FILE, 'r', encoding='utf-8') as f:
     data = json.load(f)
 
 print(f"总条目数: {len(data)}\n")
@@ -73,5 +77,28 @@ for e in data:
 
 if not has_year_dup:
     print("[通过] 所有条目的 years 无重复且无空内容")
+
+# 4. 检查每个条目对应的 problems/{source}/{name}/ 文件夹和 info.json 是否存在
+print()
+has_folder_missing = False
+for e in data:
+    source = e.get("source", "")
+    name = e.get("name", "")
+    if not source or not name:
+        print(f"[跳过] '{e.get('display_name', '?')}' 缺少 source 或 name")
+        continue
+
+    folder_path = os.path.join(BASE_DIR, "problems", source, name)
+    info_path = os.path.join(folder_path, "info.json")
+
+    if not os.path.isdir(folder_path):
+        has_folder_missing = True
+        print(f"[错误] '{e['display_name']}' ({e['name']}) 文件夹不存在: {os.path.join('problems', source, name)}")
+    elif not os.path.isfile(info_path):
+        has_folder_missing = True
+        print(f"[错误] '{e['display_name']}' ({e['name']}) info.json 不存在: {os.path.join('problems', source, name, 'info.json')}")
+
+if not has_folder_missing:
+    print("[通过] 所有条目的文件夹和 info.json 均存在")
 
 print("\n检查完毕")
