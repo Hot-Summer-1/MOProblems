@@ -1,3 +1,22 @@
 {
-  "count": 0
+  "2024决赛": {
+    "count": 0,
+    "no_problem_content": true,
+    "begin_index": 0
+  },
+  "2024预选赛": {
+    "count": 0,
+    "no_problem_content": true,
+    "begin_index": 0
+  },
+  "2023决赛": {
+    "count": 0,
+    "no_problem_content": true,
+    "begin_index": 0
+  },
+  "2023预选赛": {
+    "count": 0,
+    "no_problem_content": true,
+    "begin_index": 0
+  }
 }

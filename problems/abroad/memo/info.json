@@ -1,3 +1,42 @@
 {
-  "count": 0
+  "2025团体": {
+    "count": 0,
+    "no_problem_content": true,
+    "begin_index": 0
+  },
+  "2025个人": {
+    "count": 0,
+    "no_problem_content": true,
+    "begin_index": 0
+  },
+  "2024团体": {
+    "count": 0,
+    "no_problem_content": true,
+    "begin_index": 0
+  },
+  "2024个人": {
+    "count": 0,
+    "no_problem_content": true,
+    "begin_index": 0
+  },
+  "2023团体": {
+    "count": 0,
+    "no_problem_content": true,
+    "begin_index": 0
+  },
+  "2023个人": {
+    "count": 0,
+    "no_problem_content": true,
+    "begin_index": 0
+  },
+  "2022团体": {
+    "count": 0,
+    "no_problem_content": true,
+    "begin_index": 0
+  },
+  "2022个人": {
+    "count": 0,
+    "no_problem_content": true,
+    "begin_index": 0
+  }
 }
