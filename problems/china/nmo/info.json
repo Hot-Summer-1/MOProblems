@@ -1,37 +1,40 @@
 {
-  "2025": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2024": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2023": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2021": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2019": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2018": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2017": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
+  "display_name": "北方希望之星数学邀请赛",
+  "years": {
+    "2025": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2024": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2023": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2021": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2019": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2018": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2017": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    }
   }
 }

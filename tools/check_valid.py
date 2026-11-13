@@ -1,104 +1,215 @@
 import json
-import re
 import os
+import sys
+from collections import OrderedDict
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-COMPETITIONS_FILE = os.path.join(BASE_DIR, "competitions.json")
+PROBLEMS_DIR = os.path.join(BASE_DIR, "problems")
+SOURCES = ("china", "abroad", "university", "original")
 
-with open(COMPETITIONS_FILE, 'r', encoding='utf-8') as f:
-    data = json.load(f)
+ENTRY_KEYS = ("count", "no_problem_content", "begin_index")
 
-print(f"总条目数: {len(data)}\n")
 
-# 检查 UUID 格式 (8-4-4-4-12 十六进制)
-uuid_pattern = re.compile(r'^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$', re.IGNORECASE)
+class DuplicateKeyError(ValueError):
+    pass
 
-invalid_uuids = []
-for e in data:
-    eid = e['id']
-    if not uuid_pattern.match(eid):
-        invalid_uuids.append((eid, e['name']))
 
-if invalid_uuids:
-    print(f"[错误] 发现不合法 UUID 的 id:")
-    for eid, name in invalid_uuids:
-        print(f"  id='{eid}' (name='{name}')")
-else:
-    print("[通过] 所有 id 均为合法 UUID")
+def no_duplicate_keys(pairs):
+    result = OrderedDict()
+    for key, value in pairs:
+        if key in result:
+            raise DuplicateKeyError(f"重复的键: {key!r}")
+        result[key] = value
+    return result
 
-# 1. 检查 id 是否重复
-id_set = set()
-duplicate_ids = []
-for e in data:
-    eid = e['id']
-    if eid in id_set:
-        duplicate_ids.append(eid)
-    id_set.add(eid)
 
-if duplicate_ids:
-    print(f"[错误] 发现重复的 id: {duplicate_ids}")
-else:
-    print("[通过] 无重复 id")
+def load_info(path, errors):
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            return json.load(f, object_pairs_hook=no_duplicate_keys)
+    except DuplicateKeyError as exc:
+        errors.append(f"{path}: JSON {exc}")
+    except json.JSONDecodeError as exc:
+        errors.append(f"{path}: JSON 解析失败: {exc}")
+    return None
 
-# 2. 检查 name 是否重复
-name_map = {}
-for e in data:
-    name = e['name']
-    if name not in name_map:
-        name_map[name] = []
-    name_map[name].append(e['display_name'])
 
-duplicate_names = {k: v for k, v in name_map.items() if len(v) > 1}
-if duplicate_names:
-    print(f"[错误] 发现重复的 name:")
-    for n, displays in duplicate_names.items():
-        print(f"  name='{n}' 出现在 {len(displays)} 个条目: {displays}")
-else:
-    print("[通过] 无重复 name")
+def is_int(value):
+    return isinstance(value, int) and not isinstance(value, bool)
 
-# 3. 检查每个条目 years 内是否有重复内容
-print()
-has_year_dup = False
-for e in data:
-    years = e.get('years', [])
-    seen = set()
-    dup_years = []
-    for y in years:
-        if y in seen:
-            dup_years.append(y)
-        seen.add(y)
-    if dup_years:
-        has_year_dup = True
-        print(f"[错误] '{e['name']}' ({e['display_name']}) 的 years 内有重复: {dup_years}")
-    empty_years = [y for y in years if not y or not y.strip()]
-    if empty_years:
-        has_year_dup = True
-        print(f"[错误] '{e['name']}' ({e['display_name']}) 的 years 内有空内容")
 
-if not has_year_dup:
-    print("[通过] 所有条目的 years 无重复且无空内容")
+def check_entry(info_path, year, entry, errors, warnings):
+    prefix = f"{info_path} 的 year='{year}'"
+    if not isinstance(entry, dict):
+        errors.append(f"{prefix}: 条目必须是对象")
+        return
 
-# 4. 检查每个条目对应的 problems/{source}/{name}/ 文件夹和 info.json 是否存在
-print()
-has_folder_missing = False
-for e in data:
-    source = e.get("source", "")
-    name = e.get("name", "")
-    if not source or not name:
-        print(f"[跳过] '{e.get('display_name', '?')}' 缺少 source 或 name")
-        continue
+    missing = [key for key in ENTRY_KEYS if key not in entry]
+    if missing:
+        errors.append(f"{prefix}: 缺少字段 {missing}")
+        return
 
-    folder_path = os.path.join(BASE_DIR, "problems", source, name)
-    info_path = os.path.join(folder_path, "info.json")
+    extra = [key for key in entry if key not in ENTRY_KEYS]
+    if extra:
+        warnings.append(f"{prefix}: 存在未知字段 {extra}")
 
-    if not os.path.isdir(folder_path):
-        has_folder_missing = True
-        print(f"[错误] '{e['display_name']}' ({e['name']}) 文件夹不存在: {os.path.join('problems', source, name)}")
-    elif not os.path.isfile(info_path):
-        has_folder_missing = True
-        print(f"[错误] '{e['display_name']}' ({e['name']}) info.json 不存在: {os.path.join('problems', source, name, 'info.json')}")
+    if not is_int(entry["count"]) or entry["count"] < 0:
+        errors.append(f"{prefix}: count 必须是非负整数")
+    if not isinstance(entry["no_problem_content"], bool):
+        errors.append(f"{prefix}: no_problem_content 必须是布尔值")
+    if not is_int(entry["begin_index"]) or entry["begin_index"] < 0:
+        errors.append(f"{prefix}: begin_index 必须是非负整数")
 
-if not has_folder_missing:
-    print("[通过] 所有条目的文件夹和 info.json 均存在")
 
-print("\n检查完毕")
+def check_files(folder, years, errors, warnings):
+    name = os.path.basename(folder)
+    try:
+        files = os.listdir(folder)
+    except OSError as exc:
+        errors.append(f"{folder}: 无法读取目录: {exc}")
+        return
+
+    present = {
+        int(f[:-3]) for f in files
+        if f.endswith(".md") and f[:-3].isdigit()
+    }
+    unknown_files = [
+        f for f in files
+        if f != "info.json" and not (f.endswith(".md") and f[:-3].isdigit())
+    ]
+    if unknown_files:
+        warnings.append(f"{name}: 存在未识别的文件 {sorted(unknown_files)}")
+
+    covered = set()
+    for year, entry in years.items():
+        if not isinstance(entry, dict):
+            continue
+        count = entry.get("count")
+        begin = entry.get("begin_index")
+        no_content = entry.get("no_problem_content")
+        if not (is_int(count) and is_int(begin) and isinstance(no_content, bool)):
+            continue
+
+        expected = set(range(begin, begin + count))
+        if no_content:
+            found = sorted(present & expected)
+            if found:
+                warnings.append(
+                    f"{name} 的 year='{year}': no_problem_content=true 但存在题目文件 "
+                    f"{[f'{i}.md' for i in found]}"
+                )
+        else:
+            missing = sorted(expected - present)
+            if missing:
+                errors.append(
+                    f"{name} 的 year='{year}': 缺少题目文件 "
+                    f"{[f'{i}.md' for i in missing]}"
+                )
+        covered |= expected
+
+    extra = sorted(present - covered)
+    if extra:
+        warnings.append(f"{name}: 存在不属于任何年份的题目文件 {[f'{i}.md' for i in extra]}")
+
+
+def check_info(info_path, errors, warnings):
+    info = load_info(info_path, errors)
+    if info is None:
+        return None
+
+    if not isinstance(info, dict):
+        errors.append(f"{info_path}: 根节点必须是对象")
+        return None
+
+    missing = [key for key in ("display_name", "years") if key not in info]
+    if missing:
+        errors.append(f"{info_path}: 缺少字段 {missing}")
+        return None
+
+    extra = [key for key in info if key not in ("display_name", "years")]
+    if extra:
+        warnings.append(f"{info_path}: 存在未知字段 {extra}")
+
+    if not isinstance(info["display_name"], str) or not info["display_name"].strip():
+        errors.append(f"{info_path}: display_name 必须是非空字符串")
+
+    years = info["years"]
+    if not isinstance(years, dict):
+        errors.append(f"{info_path}: years 必须是对象")
+        return None
+    if not years:
+        warnings.append(f"{info_path}: years 为空")
+
+    for year, entry in years.items():
+        if not year.strip():
+            errors.append(f"{info_path}: years 中存在空年份")
+        check_entry(info_path, year, entry, errors, warnings)
+
+    check_files(os.path.dirname(info_path), years, errors, warnings)
+
+    return info
+
+
+def main():
+    if not os.path.isdir(PROBLEMS_DIR):
+        print(f"[错误] 未找到 problems 目录: {PROBLEMS_DIR}")
+        sys.exit(1)
+
+    errors = []
+    warnings = []
+    infos = []
+
+    for source in sorted(os.listdir(PROBLEMS_DIR)):
+        source_path = os.path.join(PROBLEMS_DIR, source)
+        if not os.path.isdir(source_path):
+            continue
+        if source not in SOURCES:
+            errors.append(f"未知的分类目录: {source}")
+
+        for name in sorted(os.listdir(source_path)):
+            folder = os.path.join(source_path, name)
+            if not os.path.isdir(folder):
+                continue
+            info_path = os.path.join(folder, "info.json")
+            if not os.path.isfile(info_path):
+                errors.append(f"{folder}: info.json 不存在")
+                continue
+            info = check_info(info_path, errors, warnings)
+            if info is not None:
+                infos.append((source, name, info))
+
+    print(f"总竞赛数: {len(infos)}")
+    print(f"总年份数: {sum(len(info['years']) for _, _, info in infos)}\n")
+
+    name_map = {}
+    display_map = {}
+    for source, name, info in infos:
+        name_map.setdefault(name, []).append(f"{source}/{name}")
+        display_map.setdefault(info["display_name"], []).append(f"{source}/{name}")
+
+    for name, paths in sorted(name_map.items()):
+        if len(paths) > 1:
+            errors.append(f"重复的 name='{name}': {paths}")
+    for display_name, paths in sorted(display_map.items()):
+        if len(paths) > 1:
+            errors.append(f"重复的 display_name='{display_name}': {paths}")
+
+    if warnings:
+        print(f"[警告] 共 {len(warnings)} 条:")
+        for message in warnings:
+            print(f"  {message}")
+        print()
+
+    if errors:
+        print(f"[错误] 共 {len(errors)} 条:")
+        for message in errors:
+            print(f"  {message}")
+        print("\n检查未通过")
+        sys.exit(1)
+
+    print("[通过] 所有 info.json 均合法")
+    print("\n检查完毕")
+
+
+if __name__ == "__main__":
+    main()

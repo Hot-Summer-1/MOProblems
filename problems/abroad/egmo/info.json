@@ -1,77 +1,80 @@
 {
-  "2026(15届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2025(14届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2024(13届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2023(12届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2022(11届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2021(10届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2020(9届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2019(8届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2018(7届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2017(6届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2016(5届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2015(4届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2014(3届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2013(2届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2012(1届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
+  "display_name": "欧洲女子数学奥林匹克",
+  "years": {
+    "2026(15届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2025(14届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2024(13届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2023(12届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2022(11届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2021(10届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2020(9届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2019(8届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2018(7届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2017(6届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2016(5届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2015(4届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2014(3届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2013(2届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2012(1届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    }
   }
 }

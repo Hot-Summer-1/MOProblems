@@ -1,12 +1,15 @@
 {
-  "2024O水平": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2024A水平": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
+  "display_name": "协作体夏令营",
+  "years": {
+    "2024O水平": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2024A水平": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    }
   }
 }

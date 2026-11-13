@@ -1,87 +1,90 @@
 {
-  "2024": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2023": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2022": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2021": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2020": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2019": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2018": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2017": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2016": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2015": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2014": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2013": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2012": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2011": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2010": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2009": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2008": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
+  "display_name": "匈牙利 Miklós Schweitzer 竞赛",
+  "years": {
+    "2024": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2023": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2022": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2021": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2020": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2019": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2018": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2017": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2016": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2015": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2014": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2013": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2012": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2011": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2010": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2009": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2008": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    }
   }
 }

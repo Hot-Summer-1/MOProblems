@@ -1,32 +1,35 @@
 {
-  "2025": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2024": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2023": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2022": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2021": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2020": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
+  "display_name": "百年老校数学竞赛",
+  "years": {
+    "2025": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2024": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2023": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2022": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2021": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2020": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    }
   }
 }

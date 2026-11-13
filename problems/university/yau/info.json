@@ -1,72 +1,75 @@
 {
-  "2026年几何与拓扑": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2026年分析与微分方程": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2025年概率与统计": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2025年数学物理": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2025年计算与应用数学": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2025年几何与拓扑": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2025年代数与数论": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2025年分析与微分方程": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2024年概率与统计": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2024年计算与应用数学": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2024年几何与拓扑": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2024年代数与数论": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2024年分析与微分方程": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2022年分析与微分方程": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
+  "display_name": "丘成桐大学生数学竞赛",
+  "years": {
+    "2026年几何与拓扑": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2026年分析与微分方程": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2025年概率与统计": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2025年数学物理": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2025年计算与应用数学": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2025年几何与拓扑": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2025年代数与数论": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2025年分析与微分方程": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2024年概率与统计": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2024年计算与应用数学": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2024年几何与拓扑": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2024年代数与数论": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2024年分析与微分方程": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2022年分析与微分方程": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    }
   }
 }

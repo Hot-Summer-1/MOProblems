@@ -1,87 +1,90 @@
 {
-  "2026(17届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2025(16届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2024(15届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2023(14届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2021(13届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2020(12届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2019(11届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2018(10届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2017(9届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2016(8届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2015(7届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2013(6届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2012(5届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2011(4届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2010(3届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2009(2届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2008(1届)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
+  "display_name": "罗马尼亚大师杯",
+  "years": {
+    "2026(17届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2025(16届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2024(15届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2023(14届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2021(13届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2020(12届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2019(11届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2018(10届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2017(9届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2016(8届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2015(7届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2013(6届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2012(5届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2011(4届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2010(3届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2009(2届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2008(1届)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    }
   }
 }

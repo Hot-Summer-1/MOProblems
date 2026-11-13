@@ -1,77 +1,80 @@
 {
-  "第22届": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第21届": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第20届": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第19届": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第18届": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第17届": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第16届": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第15届": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第14届": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第13届": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第12届": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第11届": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第10届": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第9届": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第8届": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
+  "display_name": "学而思数学竞赛联考",
+  "years": {
+    "第22届": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第21届": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第20届": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第19届": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第18届": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第17届": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第16届": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第15届": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第14届": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第13届": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第12届": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第11届": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第10届": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第9届": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第8届": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    }
   }
 }

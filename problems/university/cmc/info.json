@@ -1,117 +1,120 @@
 {
-  "第十七届决赛数学类高年级组": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十七届决赛数学类低年级组": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十七届决赛非数学A类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十七届决赛非数学B类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十七届初赛数学A类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十七届初赛数学B类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十七届初赛非数学A类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十七届初赛非数学B类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十六届决赛数学类高年级组": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十六届决赛数学类低年级组": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十六届决赛非数学A类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十六届决赛非数学B类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十六届初赛数学A类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十六届初赛数学B类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十六届初赛非数学A类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十六届初赛非数学B类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十五届决赛数学类高年级组": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十五届决赛数学类低年级组": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十五届决赛非数学类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十五届初赛数学A类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十五届初赛数学B类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十五届初赛非数学A类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "第十五届初赛非数学B类": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
+  "display_name": "全国大学生数学竞赛",
+  "years": {
+    "第十七届决赛数学类高年级组": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十七届决赛数学类低年级组": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十七届决赛非数学A类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十七届决赛非数学B类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十七届初赛数学A类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十七届初赛数学B类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十七届初赛非数学A类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十七届初赛非数学B类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十六届决赛数学类高年级组": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十六届决赛数学类低年级组": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十六届决赛非数学A类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十六届决赛非数学B类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十六届初赛数学A类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十六届初赛数学B类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十六届初赛非数学A类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十六届初赛非数学B类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十五届决赛数学类高年级组": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十五届决赛数学类低年级组": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十五届决赛非数学类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十五届初赛数学A类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十五届初赛数学B类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十五届初赛非数学A类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "第十五届初赛非数学B类": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    }
   }
 }

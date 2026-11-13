@@ -1,27 +1,30 @@
 {
-  "2025北京大学几何学I期末": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2025北京大学几何学I实验班期末": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2025北京大学高等代数I实验班期末": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2025北京大学数学分析3期末": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2025北京大学数学分析1期末": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
+  "display_name": "大学期中期末考试",
+  "years": {
+    "2025北京大学几何学I期末": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2025北京大学几何学I实验班期末": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2025北京大学高等代数I实验班期末": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2025北京大学数学分析3期末": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2025北京大学数学分析1期末": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    }
   }
 }

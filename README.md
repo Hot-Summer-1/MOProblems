@@ -10,71 +10,61 @@ problems/
 ├── abroad/       # 国际竞赛
 ├── university/   # 大学竞赛
 └── original/     # 原创竞赛
-
-tools/
-├── merge_temp.py     # 合并 temp.json 到 competitions.json
-└── check_valid.py    # 校验 competitions.json 及对应文件夹
 ```
 
-`problems/{source}/{name}` 目录名对应 `competitions.json` 中每个条目的 `source` 和 `name` 字段。例如 `problems/china/bj/` 表示 source 为 `"china"`、name 为 `"bj"` 的竞赛。
+每个竞赛对应一个目录 `problems/{source}/{name}/`，例如 `problems/china/bj/` 中 `source` 为 `china`、`name` 为 `bj`。竞赛的 `source` 和 `name` 均由路径推断，不在 `info.json` 中重复存储。
 
-## competitions.json 结构
-
-`competitions.json` 定义了所有竞赛的元数据，其结构如下：
-
-```json
-[
-  {
-    "id": "0d866ffd-91a6-46e3-91a8-12e3d3a213f3",
-    "name": "bj",
-    "display_name": "北京创新题",
-    "years": ["高考", "2026二模", ...],
-    "source": "china"
-  },
-  ...
-]
+```
+problems/{source}/{name}/
+├── info.json     # 竞赛元数据及各年份题目信息
+├── 0.md          # 题目文件（文件名由 begin_index 决定）
+└── ...
 ```
 
-### 字段说明
+`tools/` 目录包含项目辅助工具：
 
-| 字段 | 类型 | 说明 | 示例 |
-|---|---|---|---|
-| `id` | `string` | UUID v4，全局唯一标识 | `"0d866ffd-91a6-46e3-91a8-12e3d3a213f3"` |
-| `name` | `string` | 竞赛的英文短名称，同时用作 `problems/{source}/{name}` 目录名 | `"bj"` |
-| `display_name` | `string` | 竞赛的中文全称，用于展示 | `"北京创新题"` |
-| `years` | `string[]` | 该竞赛包含的年份/届次列表，每个元素格式因竞赛而异 | `["2025(66届)", "2024(65届)", ...]` |
-| `source` | `string` | 竞赛分类，共 4 类：`china`（国内）、`abroad`（国际）、`university`（大学）、`original`（原创） | `"china"` |
+- **`merge_temp.py`** — 将 `temp.json`（API 原始响应）中的比赛合并到对应 `problems/{source}/{name}/info.json`，自动创建目录、补充缺失年份。
+- **`check_valid.py`** — 校验所有 `info.json` 的结构、字段、年份、题目文件对应关系，以及 name/display_name 唯一性。
 
 ## info.json 结构
 
-每个 `problems/{source}/{name}/info.json` 文件记录了该竞赛各年份题目的元数据，结构如下：
+每个 `problems/{source}/{name}/info.json` 记录该竞赛的展示名称和各年份的题目信息。`source` 与 `name` 由目录路径推断：
 
 ```json
 {
-  "2025(A卷)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
-  },
-  "2025(B卷)": {
-    "count": 0,
-    "no_problem_content": true,
-    "begin_index": 0
+  "display_name": "北京创新题",
+  "years": {
+    "2025(A卷)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    },
+    "2025(B卷)": {
+      "count": 0,
+      "no_problem_content": true,
+      "begin_index": 0
+    }
   }
 }
 ```
 
-每个 year 对应一个对象，包含 3 个字段：
+### 竞赛字段
+
+| 字段 | 类型 | 说明 | 示例 |
+|---|---|---|---|
+| `display_name` | `string` | 竞赛的中文全称，用于展示 | `"北京创新题"` |
+| `years` | `object` | 以年份/届次为键的题目信息对象，键的顺序即展示顺序 | 见下 |
+
+`source` 目录共 4 类：`china`（国内）、`abroad`（国际）、`university`（大学）、`original`（原创）。
+
+### 年份条目字段
+
+`years` 中每个年份对应一个对象，包含 3 个字段：
 
 | 字段 | 类型 | 说明 |
 |---|---|---|
 | `count` | `int` | 该年份题目数量，默认为 0 |
 | `no_problem_content` | `bool` | 是否暂无题目内容，`true` 表示尚未录入，默认为 `false` |
-| `begin_index` | `int` | 题目文件名称起始值，默认为 0 ，仅在 `no_problem_content` 设为 `false` 或未设置时有效 |
+| `begin_index` | `int` | 题目文件名称起始值，默认为 0 |
 
-## tools 工具说明
-
-`tools/` 目录包含项目辅助工具：
-
-- **`merge_temp.py`** — 将 `temp.json`（API 原始响应）中的新比赛自动转换为 `competitions.json` 格式并合并。运行时会根据新增比赛的 `source` 和 `name` 自动创建 `problems/{source}/{name}/info.json`。
-- **`check_valid.py`** — 校验工具，检查 `competitions.json` 中所有条目的 UUID 合法性、id/name 唯一性、years 重复性，以及 `problems/{source}/{name}/` 文件夹和 `info.json` 是否存在。
+题目文件命名为 `{begin_index + i}.md`（`i = 0..count-1`）。例如 `begin_index` 为 0、`count` 为 6 时，题目文件为 `0.md` 至 `5.md`。当 `no_problem_content` 为 `true` 时，`count` 可表示该年份应有的题目数量，但对应文件暂不存在。
