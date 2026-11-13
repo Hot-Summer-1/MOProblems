@@ -1,10 +1,11 @@
 {
   "display_name": "伊朗组合奥林匹克",
-  "years": {
-    "2020": {
+  "years": [
+    {
+      "name": "2020",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

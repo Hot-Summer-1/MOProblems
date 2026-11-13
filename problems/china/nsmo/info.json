@@ -1,210 +1,251 @@
 {
   "display_name": "新星数学奥林匹克",
-  "years": {
-    "2026夏季NSTe-2": {
+  "years": [
+    {
+      "name": "2026夏季NSTe-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2026夏季": {
+    {
+      "name": "2026夏季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2026夏季NSTe-1": {
+    {
+      "name": "2026夏季NSTe-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2026春季": {
+    {
+      "name": "2026春季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2026春季NSTe-2": {
+    {
+      "name": "2026春季NSTe-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2026春季NSTe-1": {
+    {
+      "name": "2026春季NSTe-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025秋季": {
+    {
+      "name": "2025秋季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025秋季NSTe-2": {
+    {
+      "name": "2025秋季NSTe-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025秋季NSTe-1": {
+    {
+      "name": "2025秋季NSTe-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025夏季": {
+    {
+      "name": "2025夏季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025夏季NSTe-2": {
+    {
+      "name": "2025夏季NSTe-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025夏季NSTe-1": {
+    {
+      "name": "2025夏季NSTe-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025春季": {
+    {
+      "name": "2025春季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025春季NSTe-2": {
+    {
+      "name": "2025春季NSTe-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025春季NSTe-1": {
+    {
+      "name": "2025春季NSTe-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024秋季NSTe-2": {
+    {
+      "name": "2024秋季NSTe-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024秋季NSTe-1": {
+    {
+      "name": "2024秋季NSTe-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024秋季": {
+    {
+      "name": "2024秋季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024夏季NSTe-2": {
+    {
+      "name": "2024夏季NSTe-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024夏季NSTe-1": {
+    {
+      "name": "2024夏季NSTe-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024夏季": {
+    {
+      "name": "2024夏季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024春季": {
+    {
+      "name": "2024春季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023秋季": {
+    {
+      "name": "2023秋季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023夏季": {
+    {
+      "name": "2023夏季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023春季": {
+    {
+      "name": "2023春季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022春季": {
+    {
+      "name": "2022春季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021五一": {
+    {
+      "name": "2021五一",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021春季": {
+    {
+      "name": "2021春季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020冬季": {
+    {
+      "name": "2020冬季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020秋季": {
+    {
+      "name": "2020秋季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2019秋季": {
+    {
+      "name": "2019秋季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2019夏季": {
+    {
+      "name": "2019夏季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2019春季": {
+    {
+      "name": "2019春季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2018秋季": {
+    {
+      "name": "2018秋季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2018夏季": {
+    {
+      "name": "2018夏季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2018春季": {
+    {
+      "name": "2018春季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2017秋季": {
+    {
+      "name": "2017秋季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2017夏季": {
+    {
+      "name": "2017夏季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2017春季": {
+    {
+      "name": "2017春季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2016秋季": {
+    {
+      "name": "2016秋季",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2016": {
+    {
+      "name": "2016",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

@@ -1,130 +1,155 @@
 {
   "display_name": "国外原创比赛",
-  "years": {
-    "2nd MEOW": {
+  "years": [
+    {
+      "name": "2nd MEOW",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "1st MEOW": {
+    {
+      "name": "1st MEOW",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025IDMC": {
+    {
+      "name": "2025IDMC",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024年SAGF几何竞赛": {
+    {
+      "name": "2024年SAGF几何竞赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023年SAGF几何竞赛": {
+    {
+      "name": "2023年SAGF几何竞赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023CAMO": {
+    {
+      "name": "2023CAMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022SEIF(函数方程)": {
+    {
+      "name": "2022SEIF(函数方程)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022DGO(几何)": {
+    {
+      "name": "2022DGO(几何)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022DAMO": {
+    {
+      "name": "2022DAMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022ALPMO": {
+    {
+      "name": "2022ALPMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022CAMO": {
+    {
+      "name": "2022CAMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021GOWACA(几何)": {
+    {
+      "name": "2021GOWACA(几何)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021LMAO": {
+    {
+      "name": "2021LMAO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020网络空间": {
+    {
+      "name": "2020网络空间",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020伊朗OURMO": {
+    {
+      "name": "2020伊朗OURMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020POGCHAMP(几何)": {
+    {
+      "name": "2020POGCHAMP(几何)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020IFEO(函数方程)": {
+    {
+      "name": "2020IFEO(函数方程)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020GQMO": {
+    {
+      "name": "2020GQMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020FakeUSAMO": {
+    {
+      "name": "2020FakeUSAMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020CSMGO(几何)": {
+    {
+      "name": "2020CSMGO(几何)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020AQGO(几何)": {
+    {
+      "name": "2020AQGO(几何)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2019MOMO": {
+    {
+      "name": "2019MOMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2019GOTEEM(几何)": {
+    {
+      "name": "2019GOTEEM(几何)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2017OAO(代数)": {
+    {
+      "name": "2017OAO(代数)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2016OAO(代数)": {
+    {
+      "name": "2016OAO(代数)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

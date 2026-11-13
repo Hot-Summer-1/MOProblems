@@ -1,260 +1,311 @@
 {
   "display_name": "新星征解",
-  "years": {
-    "第五十一期": {
+  "years": [
+    {
+      "name": "第五十一期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第五十期": {
+    {
+      "name": "第五十期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四十九期": {
+    {
+      "name": "第四十九期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四十八期": {
+    {
+      "name": "第四十八期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四十七期": {
+    {
+      "name": "第四十七期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四十六期": {
+    {
+      "name": "第四十六期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四十五期": {
+    {
+      "name": "第四十五期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四十四期": {
+    {
+      "name": "第四十四期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四十三期": {
+    {
+      "name": "第四十三期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四十二期": {
+    {
+      "name": "第四十二期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四十一期": {
+    {
+      "name": "第四十一期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四十期": {
+    {
+      "name": "第四十期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三十九期": {
+    {
+      "name": "第三十九期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三十八期": {
+    {
+      "name": "第三十八期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三十七期": {
+    {
+      "name": "第三十七期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三十六期": {
+    {
+      "name": "第三十六期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三十五期": {
+    {
+      "name": "第三十五期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三十四期": {
+    {
+      "name": "第三十四期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三十三期": {
+    {
+      "name": "第三十三期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三十二期": {
+    {
+      "name": "第三十二期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三十一期": {
+    {
+      "name": "第三十一期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三十期": {
+    {
+      "name": "第三十期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二十九期": {
+    {
+      "name": "第二十九期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二十八期": {
+    {
+      "name": "第二十八期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二十七期": {
+    {
+      "name": "第二十七期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二十六期": {
+    {
+      "name": "第二十六期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二十五期": {
+    {
+      "name": "第二十五期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二十四期": {
+    {
+      "name": "第二十四期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二十三期": {
+    {
+      "name": "第二十三期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二十二期": {
+    {
+      "name": "第二十二期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二十一期": {
+    {
+      "name": "第二十一期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二十期": {
+    {
+      "name": "第二十期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第十九期": {
+    {
+      "name": "第十九期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第十八期": {
+    {
+      "name": "第十八期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第十七期": {
+    {
+      "name": "第十七期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第十六期": {
+    {
+      "name": "第十六期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第十五期": {
+    {
+      "name": "第十五期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第十四期": {
+    {
+      "name": "第十四期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第十三期": {
+    {
+      "name": "第十三期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第十二期": {
+    {
+      "name": "第十二期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第十一期": {
+    {
+      "name": "第十一期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第十期": {
+    {
+      "name": "第十期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第九期": {
+    {
+      "name": "第九期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第八期": {
+    {
+      "name": "第八期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第七期": {
+    {
+      "name": "第七期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第六期": {
+    {
+      "name": "第六期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第五期": {
+    {
+      "name": "第五期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四期": {
+    {
+      "name": "第四期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三期": {
+    {
+      "name": "第三期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二期": {
+    {
+      "name": "第二期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一期": {
+    {
+      "name": "第一期",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

@@ -1,80 +1,95 @@
 {
   "display_name": "北京创新题",
-  "years": {
-    "高考": {
+  "years": [
+    {
+      "name": "高考",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2026二模": {
+    {
+      "name": "2026二模",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2026一模": {
+    {
+      "name": "2026一模",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2026期末": {
+    {
+      "name": "2026期末",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2026期中": {
+    {
+      "name": "2026期中",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025二模": {
+    {
+      "name": "2025二模",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025一模": {
+    {
+      "name": "2025一模",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025期末": {
+    {
+      "name": "2025期末",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025期中": {
+    {
+      "name": "2025期中",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024二模": {
+    {
+      "name": "2024二模",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024一模": {
+    {
+      "name": "2024一模",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024期末": {
+    {
+      "name": "2024期末",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024期中": {
+    {
+      "name": "2024期中",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023二模": {
+    {
+      "name": "2023二模",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023一模": {
+    {
+      "name": "2023一模",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

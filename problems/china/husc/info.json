@@ -1,140 +1,167 @@
 {
   "display_name": "希望联盟夏令营",
-  "years": {
-    "2026-3": {
+  "years": [
+    {
+      "name": "2026-3",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2026-2": {
+    {
+      "name": "2026-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2026-1": {
+    {
+      "name": "2026-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025-3": {
+    {
+      "name": "2025-3",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025-2": {
+    {
+      "name": "2025-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025-1": {
+    {
+      "name": "2025-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024-3": {
+    {
+      "name": "2024-3",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024-2": {
+    {
+      "name": "2024-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024-1": {
+    {
+      "name": "2024-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023-3": {
+    {
+      "name": "2023-3",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023-2": {
+    {
+      "name": "2023-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023-1": {
+    {
+      "name": "2023-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022-3": {
+    {
+      "name": "2022-3",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022-2": {
+    {
+      "name": "2022-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022-1": {
+    {
+      "name": "2022-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021-3": {
+    {
+      "name": "2021-3",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021-2": {
+    {
+      "name": "2021-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021-1": {
+    {
+      "name": "2021-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020-3": {
+    {
+      "name": "2020-3",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020-2": {
+    {
+      "name": "2020-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020-1": {
+    {
+      "name": "2020-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2019-3": {
+    {
+      "name": "2019-3",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2019-2": {
+    {
+      "name": "2019-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2019-1": {
+    {
+      "name": "2019-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2018-3": {
+    {
+      "name": "2018-3",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2018-2": {
+    {
+      "name": "2018-2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2018-1": {
+    {
+      "name": "2018-1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

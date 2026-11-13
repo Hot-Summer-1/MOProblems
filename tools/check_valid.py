@@ -7,7 +7,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 PROBLEMS_DIR = os.path.join(BASE_DIR, "problems")
 SOURCES = ("china", "abroad", "university", "original")
 
-ENTRY_KEYS = ("count", "no_problem_content", "begin_index")
+ENTRY_KEYS = ("name", "count", "no_problem_content", "begin_index")
 
 
 class DuplicateKeyError(ValueError):
@@ -38,11 +38,17 @@ def is_int(value):
     return isinstance(value, int) and not isinstance(value, bool)
 
 
-def check_entry(info_path, year, entry, errors, warnings):
-    prefix = f"{info_path} 的 year='{year}'"
+def check_entry(info_path, index, entry, errors, warnings):
+    prefix = f"{info_path} 的 years[{index}]"
     if not isinstance(entry, dict):
         errors.append(f"{prefix}: 条目必须是对象")
         return
+
+    year_name = entry.get("name")
+    if isinstance(year_name, str) and year_name.strip():
+        prefix = f"{info_path} 的 year='{year_name}'"
+    elif "name" in entry:
+        errors.append(f"{prefix}: name 必须是非空字符串")
 
     missing = [key for key in ENTRY_KEYS if key not in entry]
     if missing:
@@ -81,9 +87,10 @@ def check_files(folder, years, errors, warnings):
         warnings.append(f"{name}: 存在未识别的文件 {sorted(unknown_files)}")
 
     covered = set()
-    for year, entry in years.items():
+    for index, entry in enumerate(years):
         if not isinstance(entry, dict):
             continue
+        year_name = entry.get("name", f"#{index}")
         count = entry.get("count")
         begin = entry.get("begin_index")
         no_content = entry.get("no_problem_content")
@@ -95,14 +102,14 @@ def check_files(folder, years, errors, warnings):
             found = sorted(present & expected)
             if found:
                 warnings.append(
-                    f"{name} 的 year='{year}': no_problem_content=true 但存在题目文件 "
+                    f"{name} 的 year='{year_name}': no_problem_content=true 但存在题目文件 "
                     f"{[f'{i}.md' for i in found]}"
                 )
         else:
             missing = sorted(expected - present)
             if missing:
                 errors.append(
-                    f"{name} 的 year='{year}': 缺少题目文件 "
+                    f"{name} 的 year='{year_name}': 缺少题目文件 "
                     f"{[f'{i}.md' for i in missing]}"
                 )
         covered |= expected
@@ -134,16 +141,21 @@ def check_info(info_path, errors, warnings):
         errors.append(f"{info_path}: display_name 必须是非空字符串")
 
     years = info["years"]
-    if not isinstance(years, dict):
-        errors.append(f"{info_path}: years 必须是对象")
+    if not isinstance(years, list):
+        errors.append(f"{info_path}: years 必须是数组")
         return None
     if not years:
         warnings.append(f"{info_path}: years 为空")
 
-    for year, entry in years.items():
-        if not year.strip():
-            errors.append(f"{info_path}: years 中存在空年份")
-        check_entry(info_path, year, entry, errors, warnings)
+    seen = set()
+    for index, entry in enumerate(years):
+        check_entry(info_path, index, entry, errors, warnings)
+        if isinstance(entry, dict):
+            year_name = entry.get("name")
+            if isinstance(year_name, str) and year_name.strip():
+                if year_name in seen:
+                    errors.append(f"{info_path}: years 中存在重复的 name='{year_name}'")
+                seen.add(year_name)
 
     check_files(os.path.dirname(info_path), years, errors, warnings)
 

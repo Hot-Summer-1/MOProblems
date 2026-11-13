@@ -25,14 +25,15 @@ temp.json 格式（原始 API 响应）:
 info.json 格式（source/name 由目录路径推断）:
 {
   "display_name": "国际数学奥林匹克",
-  "years": {
-    "2026": {
+  "years": [
+    {
+      "name": "2026",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
     ...
-  }
+  ]
 }
 """
 
@@ -72,9 +73,10 @@ def convert_item(raw):
     }
 
 
-def make_year_entry():
+def make_year_entry(year_name):
     """返回一个年份条目的标准结构"""
     return OrderedDict([
+        ("name", year_name),
         ("count", 0),
         ("no_problem_content", True),
         ("begin_index", 0)
@@ -85,7 +87,13 @@ def load_info(info_path):
     with open(info_path, "r", encoding="utf-8") as f:
         info = json.load(f, object_pairs_hook=OrderedDict)
 
-    if "years" not in info and all(isinstance(v, dict) for v in info.values()):
+    years = info.get("years")
+    if isinstance(years, dict):
+        info["years"] = [
+            OrderedDict([("name", year_name), *entry.items()])
+            for year_name, entry in years.items()
+        ]
+    elif years is None and all(isinstance(v, dict) for v in info.values()):
         raise ValueError(
             f"{info_path} 仍是旧版扁平结构，请先运行迁移脚本转换为新版结构"
         )
@@ -104,23 +112,32 @@ def merge_info(item):
     info_path = os.path.join(folder_path, "info.json")
 
     if os.path.exists(info_path):
-        info = load_info(info_path)
-        years = info.get("years", OrderedDict())
+        years = load_info(info_path).get("years", [])
     else:
-        years = OrderedDict()
+        years = []
+    if not isinstance(years, list):
+        years = []
+
+    existing = {}
+    for entry in years:
+        if isinstance(entry, dict) and isinstance(entry.get("name"), str):
+            existing.setdefault(entry["name"], entry)
 
     added = 0
     for year in item["years"]:
-        if year not in years:
-            years[year] = make_year_entry()
+        if year not in existing:
+            existing[year] = make_year_entry(year)
             added += 1
 
-    ordered = OrderedDict()
-    for year in item["years"]:
-        ordered[year] = years[year]
-    for year, entry in years.items():
-        if year not in ordered:
-            ordered[year] = entry
+    ordered = [existing[year] for year in item["years"]]
+    api_years = set(item["years"])
+    for entry in years:
+        if not isinstance(entry, dict):
+            continue
+        year = entry.get("name")
+        if year not in api_years:
+            ordered.append(entry)
+            api_years.add(year)
 
     new_info = OrderedDict([
         ("display_name", item["display_name"]),

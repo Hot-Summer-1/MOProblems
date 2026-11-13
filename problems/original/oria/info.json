@@ -1,325 +1,389 @@
 {
   "display_name": "原创题代数",
-  "years": {
-    "代数631-640": {
+  "years": [
+    {
+      "name": "代数631-640",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数621-630": {
+    {
+      "name": "代数621-630",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数611-620": {
+    {
+      "name": "代数611-620",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数601-610": {
+    {
+      "name": "代数601-610",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数591-600": {
+    {
+      "name": "代数591-600",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数581-590": {
+    {
+      "name": "代数581-590",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数571-580": {
+    {
+      "name": "代数571-580",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数561-570": {
+    {
+      "name": "代数561-570",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数551-560": {
+    {
+      "name": "代数551-560",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数541-550": {
+    {
+      "name": "代数541-550",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数531-540": {
+    {
+      "name": "代数531-540",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数521-530": {
+    {
+      "name": "代数521-530",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数511-520": {
+    {
+      "name": "代数511-520",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数501-510": {
+    {
+      "name": "代数501-510",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数491-500": {
+    {
+      "name": "代数491-500",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数481-490": {
+    {
+      "name": "代数481-490",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数471-480": {
+    {
+      "name": "代数471-480",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数461-470": {
+    {
+      "name": "代数461-470",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数451-460": {
+    {
+      "name": "代数451-460",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数441-450": {
+    {
+      "name": "代数441-450",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数431-440": {
+    {
+      "name": "代数431-440",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数421-430": {
+    {
+      "name": "代数421-430",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数411-420": {
+    {
+      "name": "代数411-420",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数401-410": {
+    {
+      "name": "代数401-410",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数391-400": {
+    {
+      "name": "代数391-400",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数381-390": {
+    {
+      "name": "代数381-390",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数371-380": {
+    {
+      "name": "代数371-380",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数361-370": {
+    {
+      "name": "代数361-370",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数351-360": {
+    {
+      "name": "代数351-360",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数341-350": {
+    {
+      "name": "代数341-350",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数331-340": {
+    {
+      "name": "代数331-340",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数321-330": {
+    {
+      "name": "代数321-330",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数311-320": {
+    {
+      "name": "代数311-320",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数301-310": {
+    {
+      "name": "代数301-310",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数291-300": {
+    {
+      "name": "代数291-300",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数281-290": {
+    {
+      "name": "代数281-290",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数271-280": {
+    {
+      "name": "代数271-280",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数261-270": {
+    {
+      "name": "代数261-270",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数251-260": {
+    {
+      "name": "代数251-260",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数241-250": {
+    {
+      "name": "代数241-250",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数231-240": {
+    {
+      "name": "代数231-240",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数221-230": {
+    {
+      "name": "代数221-230",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数211-220": {
+    {
+      "name": "代数211-220",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数201-210": {
+    {
+      "name": "代数201-210",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数191-200": {
+    {
+      "name": "代数191-200",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数181-190": {
+    {
+      "name": "代数181-190",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数171-180": {
+    {
+      "name": "代数171-180",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数161-170": {
+    {
+      "name": "代数161-170",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数151-160": {
+    {
+      "name": "代数151-160",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数141-150": {
+    {
+      "name": "代数141-150",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数131-140": {
+    {
+      "name": "代数131-140",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数121-130": {
+    {
+      "name": "代数121-130",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数111-120": {
+    {
+      "name": "代数111-120",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数101-110": {
+    {
+      "name": "代数101-110",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数91-100": {
+    {
+      "name": "代数91-100",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数81-90": {
+    {
+      "name": "代数81-90",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数71-80": {
+    {
+      "name": "代数71-80",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数61-70": {
+    {
+      "name": "代数61-70",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数51-60": {
+    {
+      "name": "代数51-60",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数41-50": {
+    {
+      "name": "代数41-50",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数31-40": {
+    {
+      "name": "代数31-40",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数21-30": {
+    {
+      "name": "代数21-30",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数11-20": {
+    {
+      "name": "代数11-20",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数1-10": {
+    {
+      "name": "代数1-10",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

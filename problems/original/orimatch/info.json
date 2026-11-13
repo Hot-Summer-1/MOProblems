@@ -1,1225 +1,1469 @@
 {
   "display_name": "原创比赛",
-  "years": {
-    "HWW二试模拟": {
+  "years": [
+    {
+      "name": "HWW二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "HATER杯二试": {
+    {
+      "name": "HATER杯二试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第十届BYMO二试": {
+    {
+      "name": "第十届BYMO二试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届IVST代数杯": {
+    {
+      "name": "第一届IVST代数杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "华生几何杯": {
+    {
+      "name": "华生几何杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第九届BYMO": {
+    {
+      "name": "第九届BYMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "AIR夏日纪念赛二试": {
+    {
+      "name": "AIR夏日纪念赛二试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "戴安娜的梦一些原创不等式": {
+    {
+      "name": "戴安娜的梦一些原创不等式",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "Cirnoの「完美」数学杯": {
+    {
+      "name": "Cirnoの「完美」数学杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "BYMO热身赛二": {
+    {
+      "name": "BYMO热身赛二",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "3rdOh!MO": {
+    {
+      "name": "3rdOh!MO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四届巨佬杯数学联赛B卷加试": {
+    {
+      "name": "第四届巨佬杯数学联赛B卷加试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四届巨佬杯数学联赛A卷加试": {
+    {
+      "name": "第四届巨佬杯数学联赛A卷加试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "再投一点简单代数题": {
+    {
+      "name": "再投一点简单代数题",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "T.F.T.H.并非高联代数模拟": {
+    {
+      "name": "T.F.T.H.并非高联代数模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025RMO复仇赛": {
+    {
+      "name": "2025RMO复仇赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二届fvv杯原创CMO模拟": {
+    {
+      "name": "第二届fvv杯原创CMO模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二届LZMO": {
+    {
+      "name": "第二届LZMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "Fake NSMO半限制版": {
+    {
+      "name": "Fake NSMO半限制版",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025第三届归零杯决赛": {
+    {
+      "name": "2025第三届归零杯决赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "FakeNSTe1无限制版": {
+    {
+      "name": "FakeNSTe1无限制版",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "Fake NSTe2限制版": {
+    {
+      "name": "Fake NSTe2限制版",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025tyz二试模拟": {
+    {
+      "name": "2025tyz二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "猫酱两圆相切练习（四）": {
+    {
+      "name": "猫酱两圆相切练习（四）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届田园杯诈骗二试模拟": {
+    {
+      "name": "第一届田园杯诈骗二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "24CMO第二次模拟": {
+    {
+      "name": "24CMO第二次模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届石玲齐杯CQMO决赛": {
+    {
+      "name": "第一届石玲齐杯CQMO决赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "3rd FakeIGO": {
+    {
+      "name": "3rd FakeIGO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2026年第4届鸿煦杯网络数学竞赛高级组决赛": {
+    {
+      "name": "2026年第4届鸿煦杯网络数学竞赛高级组决赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2026年第4届鸿煦杯网络数学竞赛初级组决赛": {
+    {
+      "name": "2026年第4届鸿煦杯网络数学竞赛初级组决赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第八届BYMO": {
+    {
+      "name": "第八届BYMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2nd OHMO": {
+    {
+      "name": "2nd OHMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "RZMO": {
+    {
+      "name": "RZMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "SPEEDsilver跨年几何模拟": {
+    {
+      "name": "SPEEDsilver跨年几何模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "9k函数方程六题祭": {
+    {
+      "name": "9k函数方程六题祭",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三届巨佬杯数学联赛": {
+    {
+      "name": "第三届巨佬杯数学联赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "灭的原创几何": {
+    {
+      "name": "灭的原创几何",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四届原根杯暨Frank大师赛": {
+    {
+      "name": "第四届原根杯暨Frank大师赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三届巴巴里阿数学竞赛": {
+    {
+      "name": "第三届巴巴里阿数学竞赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "CJMC1st": {
+    {
+      "name": "CJMC1st",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "仲崇瑞牛杯": {
+    {
+      "name": "仲崇瑞牛杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "ECMC 2ND": {
+    {
+      "name": "ECMC 2ND",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "一点简单代数题": {
+    {
+      "name": "一点简单代数题",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025年第二届EMO二试": {
+    {
+      "name": "2025年第二届EMO二试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三届银杏杯数学奥林匹克": {
+    {
+      "name": "第三届银杏杯数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "The Mock S3": {
+    {
+      "name": "The Mock S3",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "端的好题": {
+    {
+      "name": "端的好题",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "1st Oh!MO": {
+    {
+      "name": "1st Oh!MO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "ECMC 1st": {
+    {
+      "name": "ECMC 1st",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "The 1st SMO": {
+    {
+      "name": "The 1st SMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "刘亦乐CMO模拟": {
+    {
+      "name": "刘亦乐CMO模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "SHZM复仇赛": {
+    {
+      "name": "SHZM复仇赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "1st Fake EGMO": {
+    {
+      "name": "1st Fake EGMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "SPEEDsilver几何模拟测试": {
+    {
+      "name": "SPEEDsilver几何模拟测试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第七届BYMO": {
+    {
+      "name": "第七届BYMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二届巨佬杯二试模拟": {
+    {
+      "name": "第二届巨佬杯二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "24CMO模拟": {
+    {
+      "name": "24CMO模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "飞弈杯CMO模拟": {
+    {
+      "name": "飞弈杯CMO模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "y=g(x)+t MO": {
+    {
+      "name": "y=g(x)+t MO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三届千年老题数学奥林匹克": {
+    {
+      "name": "第三届千年老题数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届极易杯代数集锦赛": {
+    {
+      "name": "第一届极易杯代数集锦赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届兰生杯复仇赛": {
+    {
+      "name": "第一届兰生杯复仇赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025年第三届西西高联模拟二试": {
+    {
+      "name": "2025年第三届西西高联模拟二试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "The Mock S2二试B卷": {
+    {
+      "name": "The Mock S2二试B卷",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "The Mock S2二试A卷": {
+    {
+      "name": "The Mock S2二试A卷",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "Mclennon纪念赛二试": {
+    {
+      "name": "Mclennon纪念赛二试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第六届BYMO二试": {
+    {
+      "name": "第六届BYMO二试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届SRMO": {
+    {
+      "name": "第一届SRMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "章鱼杯题目选编": {
+    {
+      "name": "章鱼杯题目选编",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "SXMO": {
+    {
+      "name": "SXMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "LZMO": {
+    {
+      "name": "LZMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届凤凰杯GOE决赛": {
+    {
+      "name": "第一届凤凰杯GOE决赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "3rd AWAO": {
+    {
+      "name": "3rd AWAO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "y=g(x)+t 二试模拟": {
+    {
+      "name": "y=g(x)+t 二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025第三届归零杯预赛": {
+    {
+      "name": "2025第三届归零杯预赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "杨子赛二试模拟": {
+    {
+      "name": "杨子赛二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第五届BYMO": {
+    {
+      "name": "第五届BYMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "1st IFGO几何": {
+    {
+      "name": "1st IFGO几何",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届DYYZ大烧杯": {
+    {
+      "name": "第一届DYYZ大烧杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届小麻雀XMQ杯": {
+    {
+      "name": "第一届小麻雀XMQ杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025AMV暑期联赛模拟一": {
+    {
+      "name": "2025AMV暑期联赛模拟一",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三届Pythaeucler东航杯挑战赛二试": {
+    {
+      "name": "第三届Pythaeucler东航杯挑战赛二试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "BYMO热身赛（一）": {
+    {
+      "name": "BYMO热身赛（一）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届4536杯": {
+    {
+      "name": "第一届4536杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2nd Fake IGO": {
+    {
+      "name": "2nd Fake IGO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届企鹅杯数学原创比赛": {
+    {
+      "name": "第一届企鹅杯数学原创比赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "复数不等式练习题": {
+    {
+      "name": "复数不等式练习题",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三届原根杯数学奥林匹克": {
+    {
+      "name": "第三届原根杯数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025年第4届FakeRMO": {
+    {
+      "name": "2025年第4届FakeRMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届fvv杯原创CMO模拟": {
+    {
+      "name": "第一届fvv杯原创CMO模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "五一新星复仇赛": {
+    {
+      "name": "五一新星复仇赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届BNDS FakeMO": {
+    {
+      "name": "第一届BNDS FakeMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "NSMO复仇赛": {
+    {
+      "name": "NSMO复仇赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "猫酱两圆相切练习（三）": {
+    {
+      "name": "猫酱两圆相切练习（三）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二届千年老题数学奥林匹克": {
+    {
+      "name": "第二届千年老题数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025愚人节诈骗赛": {
+    {
+      "name": "2025愚人节诈骗赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届巨佬杯数学联赛二试": {
+    {
+      "name": "第一届巨佬杯数学联赛二试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024年第7届RMO": {
+    {
+      "name": "2024年第7届RMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024RMO复仇赛": {
+    {
+      "name": "2024RMO复仇赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四届BYMO": {
+    {
+      "name": "第四届BYMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025第二届归零杯决赛": {
+    {
+      "name": "2025第二届归零杯决赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025年第3届鸿煦杯高中组决赛二试": {
+    {
+      "name": "2025年第3届鸿煦杯高中组决赛二试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三届MAS数学竞赛": {
+    {
+      "name": "第三届MAS数学竞赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025跨年极逊队选拔测试": {
+    {
+      "name": "2025跨年极逊队选拔测试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025新春两试综合试题": {
+    {
+      "name": "2025新春两试综合试题",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2nd AWAO": {
+    {
+      "name": "2nd AWAO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024年第二届归零杯复赛加试试题": {
+    {
+      "name": "2024年第二届归零杯复赛加试试题",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024夏季星光杯高中组二试": {
+    {
+      "name": "2024夏季星光杯高中组二试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "神中抗疫杯Revenge二试模拟": {
+    {
+      "name": "神中抗疫杯Revenge二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二届巴巴里阿数学竞赛": {
+    {
+      "name": "第二届巴巴里阿数学竞赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "1st AWAO": {
+    {
+      "name": "1st AWAO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届新星几何复仇赛": {
+    {
+      "name": "第一届新星几何复仇赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "SLMO": {
+    {
+      "name": "SLMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届集思杯": {
+    {
+      "name": "第一届集思杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "唐朝数学奥林匹克": {
+    {
+      "name": "唐朝数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二届原根杯数学奥林匹克": {
+    {
+      "name": "第二届原根杯数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "LS-GMO": {
+    {
+      "name": "LS-GMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "败者杯复仇赛": {
+    {
+      "name": "败者杯复仇赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "鼠杯数学奥林匹克": {
+    {
+      "name": "鼠杯数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024纯原创高联模拟最后一卷二试": {
+    {
+      "name": "2024纯原创高联模拟最后一卷二试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "麦鸟二试模拟（四）": {
+    {
+      "name": "麦鸟二试模拟（四）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "李天勤二试模拟": {
+    {
+      "name": "李天勤二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三届BYMO": {
+    {
+      "name": "第三届BYMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四届附中杯ZGMO": {
+    {
+      "name": "第四届附中杯ZGMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "盛夏数学练习题": {
+    {
+      "name": "盛夏数学练习题",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "猫酱两圆相切练习2": {
+    {
+      "name": "猫酱两圆相切练习2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024第一届FZYZMO假赛": {
+    {
+      "name": "2024第一届FZYZMO假赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "Fake IGO": {
+    {
+      "name": "Fake IGO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024年大香蕉数学奥林匹克竞赛决赛": {
+    {
+      "name": "2024年大香蕉数学奥林匹克竞赛决赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届巴巴里阿数学竞赛": {
+    {
+      "name": "第一届巴巴里阿数学竞赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021王一川二试模拟": {
+    {
+      "name": "2021王一川二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020王一川二试模拟": {
+    {
+      "name": "2020王一川二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "MAS原创代数": {
+    {
+      "name": "MAS原创代数",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024第二届归零杯预赛": {
+    {
+      "name": "2024第二届归零杯预赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "The 1st XYZGO": {
+    {
+      "name": "The 1st XYZGO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024尘世数旅二试模拟": {
+    {
+      "name": "2024尘世数旅二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "猫酱两圆相切练习": {
+    {
+      "name": "猫酱两圆相切练习",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024愚人节诈骗赛": {
+    {
+      "name": "2024愚人节诈骗赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "麦鸟二试模拟（三）": {
+    {
+      "name": "麦鸟二试模拟（三）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "牢大徒伤杯": {
+    {
+      "name": "牢大徒伤杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三届附中杯ZGMO": {
+    {
+      "name": "第三届附中杯ZGMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二届MAS数学竞赛初赛": {
+    {
+      "name": "第二届MAS数学竞赛初赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二届MAS数学竞赛决赛": {
+    {
+      "name": "第二届MAS数学竞赛决赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024年2月几何行星杯": {
+    {
+      "name": "2024年2月几何行星杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "1st垃圾分类数学奥林匹克": {
+    {
+      "name": "1st垃圾分类数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "wyccc新春几何赏金赛": {
+    {
+      "name": "wyccc新春几何赏金赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "麦鸟二试模拟（二）": {
+    {
+      "name": "麦鸟二试模拟（二）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届FakeELMO": {
+    {
+      "name": "第一届FakeELMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024年第5届青云杯二试": {
+    {
+      "name": "2024年第5届青云杯二试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "mxy跨年二试模拟": {
+    {
+      "name": "mxy跨年二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024极逊队复仇赛": {
+    {
+      "name": "2024极逊队复仇赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024年第2届鸿熙杯网络数学竞赛二试": {
+    {
+      "name": "2024年第2届鸿熙杯网络数学竞赛二试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "大厦几何模拟测试": {
+    {
+      "name": "大厦几何模拟测试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "MOST2023CMO模拟": {
+    {
+      "name": "MOST2023CMO模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "酒神复仇赛二试部分": {
+    {
+      "name": "酒神复仇赛二试部分",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二届BYMO": {
+    {
+      "name": "第二届BYMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023年第6届RMO": {
+    {
+      "name": "2023年第6届RMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "函数构造杯": {
+    {
+      "name": "函数构造杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "Fake函数构造杯": {
+    {
+      "name": "Fake函数构造杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届CCMO信心杯": {
+    {
+      "name": "第一届CCMO信心杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "PZLY二试模拟": {
+    {
+      "name": "PZLY二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023RMO复仇赛": {
+    {
+      "name": "2023RMO复仇赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "DER杯二试": {
+    {
+      "name": "DER杯二试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "CMO唐氏模拟": {
+    {
+      "name": "CMO唐氏模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023七万ZYQMO（一）": {
+    {
+      "name": "2023七万ZYQMO（一）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023第一届归零杯": {
+    {
+      "name": "2023第一届归零杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第四届复旦附中平面几何社FNGO": {
+    {
+      "name": "第四届复旦附中平面几何社FNGO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "CLMO二试模拟": {
+    {
+      "name": "CLMO二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "李雨航CMO模拟（二）": {
+    {
+      "name": "李雨航CMO模拟（二）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "李雨航CMO模拟（一）": {
+    {
+      "name": "李雨航CMO模拟（一）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023年第3届FakeRMO": {
+    {
+      "name": "2023年第3届FakeRMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "麦鸟二试模拟（一）": {
+    {
+      "name": "麦鸟二试模拟（一）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "千年老题数学奥林匹克": {
+    {
+      "name": "千年老题数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二届ZHMO": {
+    {
+      "name": "第二届ZHMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届ZHMO": {
+    {
+      "name": "第一届ZHMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二届紫金杯数学竞赛": {
+    {
+      "name": "第二届紫金杯数学竞赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "许太太二试模拟": {
+    {
+      "name": "许太太二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二届附中杯ZGMO": {
+    {
+      "name": "第二届附中杯ZGMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "代数猿创杯": {
+    {
+      "name": "代数猿创杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023欢乐动物园入园测试": {
+    {
+      "name": "2023欢乐动物园入园测试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023MOST二试模拟": {
+    {
+      "name": "2023MOST二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "ASLHMO": {
+    {
+      "name": "ASLHMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届附中杯ZGMO": {
+    {
+      "name": "第一届附中杯ZGMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022IMO模拟赵力": {
+    {
+      "name": "2022IMO模拟赵力",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021IMO模拟赵力": {
+    {
+      "name": "2021IMO模拟赵力",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020IMO模拟赵力": {
+    {
+      "name": "2020IMO模拟赵力",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "宝应中学数学竞赛": {
+    {
+      "name": "宝应中学数学竞赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023红楼主题数学奥林匹克": {
+    {
+      "name": "2023红楼主题数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三届复旦附中平面几何社FNGO": {
+    {
+      "name": "第三届复旦附中平面几何社FNGO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023年8月几何行星杯": {
+    {
+      "name": "2023年8月几何行星杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023年POPMO": {
+    {
+      "name": "2023年POPMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "婉拒纯粹几何数学奥林匹克": {
+    {
+      "name": "婉拒纯粹几何数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "首届常中模拟": {
+    {
+      "name": "首届常中模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "首届千年老校数学奥林匹克": {
+    {
+      "name": "首届千年老校数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020CMO模拟王一川": {
+    {
+      "name": "2020CMO模拟王一川",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第三届双曲线数学奥林匹克": {
+    {
+      "name": "第三届双曲线数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023年第2届FakeRMO": {
+    {
+      "name": "2023年第2届FakeRMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届EMO数学奥林匹克": {
+    {
+      "name": "第一届EMO数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "Φ节挑战赛": {
+    {
+      "name": "Φ节挑战赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "T.F.T.H.高联代数水题模拟": {
+    {
+      "name": "T.F.T.H.高联代数水题模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届凡人杯数学奥林匹克": {
+    {
+      "name": "第一届凡人杯数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届紫金杯数学竞赛": {
+    {
+      "name": "第一届紫金杯数学竞赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "五一高联复仇赛": {
+    {
+      "name": "五一高联复仇赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "FCSCO尺规作图奥林匹克": {
+    {
+      "name": "FCSCO尺规作图奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "五一期中复仇赛": {
+    {
+      "name": "五一期中复仇赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二届复旦附中平面几何社FNGO": {
+    {
+      "name": "第二届复旦附中平面几何社FNGO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023AFMO愚人节竞赛": {
+    {
+      "name": "2023AFMO愚人节竞赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023年第1届FakeRMO": {
+    {
+      "name": "2023年第1届FakeRMO",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "FVMO第一届网络会试": {
+    {
+      "name": "FVMO第一届网络会试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023MOST数学奥林匹克": {
+    {
+      "name": "2023MOST数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第二届银杏杯数学奥林匹克": {
+    {
+      "name": "第二届银杏杯数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第一届原根杯数学奥林匹克": {
+    {
+      "name": "第一届原根杯数学奥林匹克",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "63届IMO模拟题王一川": {
+    {
+      "name": "63届IMO模拟题王一川",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "62届IMO模拟题王一川": {
+    {
+      "name": "62届IMO模拟题王一川",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023冰川妮数学竞赛（四）": {
+    {
+      "name": "2023冰川妮数学竞赛（四）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023冰川妮数学竞赛（三）": {
+    {
+      "name": "2023冰川妮数学竞赛（三）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023冰川妮数学竞赛（二）": {
+    {
+      "name": "2023冰川妮数学竞赛（二）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023冰川妮数学竞赛（一）": {
+    {
+      "name": "2023冰川妮数学竞赛（一）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023星光杯决赛": {
+    {
+      "name": "2023星光杯决赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023跨年赛极逊队选拔测试": {
+    {
+      "name": "2023跨年赛极逊队选拔测试",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023第一届零点杯": {
+    {
+      "name": "2023第一届零点杯",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023新春跨年几何赛": {
+    {
+      "name": "2023新春跨年几何赛",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023FNGO(几何)": {
+    {
+      "name": "2023FNGO(几何)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022陈飞宇中国数学奥林匹克模拟": {
+    {
+      "name": "2022陈飞宇中国数学奥林匹克模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022第一届中国数学奥林匹克Fake全真模拟": {
+    {
+      "name": "2022第一届中国数学奥林匹克Fake全真模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022数之谜用户二试模拟": {
+    {
+      "name": "2022数之谜用户二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022快乐小子二试模拟": {
+    {
+      "name": "2022快乐小子二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022学车中学ZXT北大金秋营模拟": {
+    {
+      "name": "2022学车中学ZXT北大金秋营模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022学车中学ZXT二试模拟": {
+    {
+      "name": "2022学车中学ZXT二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022学车中学ZXT中国数学奥林匹克模拟": {
+    {
+      "name": "2022学车中学ZXT中国数学奥林匹克模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022ZZQMO二试模拟（二）": {
+    {
+      "name": "2022ZZQMO二试模拟（二）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022ZZQMO二试模拟（三）": {
+    {
+      "name": "2022ZZQMO二试模拟（三）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022ZZQMO二试模拟（一）": {
+    {
+      "name": "2022ZZQMO二试模拟（一）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022SSMO二试模拟": {
+    {
+      "name": "2022SSMO二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022PMO中国数学奥林匹克模拟": {
+    {
+      "name": "2022PMO中国数学奥林匹克模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022Mel的喵二试模拟": {
+    {
+      "name": "2022Mel的喵二试模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022MOST二试模拟（二）": {
+    {
+      "name": "2022MOST二试模拟（二）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022MOST二试模拟（一）": {
+    {
+      "name": "2022MOST二试模拟（一）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022MOST中国数学奥林匹克模拟": {
+    {
+      "name": "2022MOST中国数学奥林匹克模拟",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022DCMO中国数学奥林匹克模拟（二）": {
+    {
+      "name": "2022DCMO中国数学奥林匹克模拟（二）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022DCMO中国数学奥林匹克模拟（三）": {
+    {
+      "name": "2022DCMO中国数学奥林匹克模拟（三）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022DCMO中国数学奥林匹克模拟（一）": {
+    {
+      "name": "2022DCMO中国数学奥林匹克模拟（一）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022C卷二试模拟（二）": {
+    {
+      "name": "2022C卷二试模拟（二）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022C卷二试模拟（一）": {
+    {
+      "name": "2022C卷二试模拟（一）",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

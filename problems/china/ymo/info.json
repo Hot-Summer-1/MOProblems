@@ -1,35 +1,41 @@
 {
   "display_name": "猿辅导高联模考",
-  "years": {
-    "2026年5月": {
+  "years": [
+    {
+      "name": "2026年5月",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025年5月": {
+    {
+      "name": "2025年5月",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024年5月": {
+    {
+      "name": "2024年5月",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023年5月": {
+    {
+      "name": "2023年5月",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021年8月": {
+    {
+      "name": "2021年8月",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021年5月": {
+    {
+      "name": "2021年5月",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

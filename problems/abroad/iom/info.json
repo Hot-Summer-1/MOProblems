@@ -1,35 +1,41 @@
 {
   "display_name": "国际大都市数学奥林匹克",
-  "years": {
-    "2021": {
+  "years": [
+    {
+      "name": "2021",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020": {
+    {
+      "name": "2020",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2019": {
+    {
+      "name": "2019",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2018": {
+    {
+      "name": "2018",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2017": {
+    {
+      "name": "2017",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2016": {
+    {
+      "name": "2016",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

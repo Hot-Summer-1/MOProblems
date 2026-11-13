@@ -1,45 +1,53 @@
 {
   "display_name": "中欧数学奥林匹克",
-  "years": {
-    "2025团体": {
+  "years": [
+    {
+      "name": "2025团体",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025个人": {
+    {
+      "name": "2025个人",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024团体": {
+    {
+      "name": "2024团体",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024个人": {
+    {
+      "name": "2024个人",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023团体": {
+    {
+      "name": "2023团体",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023个人": {
+    {
+      "name": "2023个人",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022团体": {
+    {
+      "name": "2022团体",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022个人": {
+    {
+      "name": "2022个人",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

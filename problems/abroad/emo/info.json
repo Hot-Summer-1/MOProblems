@@ -1,10 +1,11 @@
 {
   "display_name": "欧洲数学奥林匹克",
-  "years": {
-    "2026": {
+  "years": [
+    {
+      "name": "2026",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

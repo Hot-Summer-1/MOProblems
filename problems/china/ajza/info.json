@@ -1,40 +1,47 @@
 {
   "display_name": "爱尖子能力测评",
-  "years": {
-    "第11届": {
+  "years": [
+    {
+      "name": "第11届",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第10届": {
+    {
+      "name": "第10届",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第9届": {
+    {
+      "name": "第9届",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第8届": {
+    {
+      "name": "第8届",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第7届": {
+    {
+      "name": "第7届",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第6届": {
+    {
+      "name": "第6届",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "第5届": {
+    {
+      "name": "第5届",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

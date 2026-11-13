@@ -1,165 +1,197 @@
 {
   "display_name": "高中联赛一试",
-  "years": {
-    "2025(A卷)": {
+  "years": [
+    {
+      "name": "2025(A卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025(B卷)": {
+    {
+      "name": "2025(B卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024(A卷)": {
+    {
+      "name": "2024(A卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024(B卷)": {
+    {
+      "name": "2024(B卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023(A卷)": {
+    {
+      "name": "2023(A卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023(B卷)": {
+    {
+      "name": "2023(B卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022(A卷)": {
+    {
+      "name": "2022(A卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022(A1卷)": {
+    {
+      "name": "2022(A1卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022(A2卷)": {
+    {
+      "name": "2022(A2卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022(B卷)": {
+    {
+      "name": "2022(B卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022(B1卷)": {
+    {
+      "name": "2022(B1卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021(A卷)": {
+    {
+      "name": "2021(A卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021(A1卷)": {
+    {
+      "name": "2021(A1卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021(A2卷)": {
+    {
+      "name": "2021(A2卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021(B卷)": {
+    {
+      "name": "2021(B卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020(A卷)": {
+    {
+      "name": "2020(A卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020(B卷)": {
+    {
+      "name": "2020(B卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2019(A卷)": {
+    {
+      "name": "2019(A卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2019(B卷)": {
+    {
+      "name": "2019(B卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2018(A卷)": {
+    {
+      "name": "2018(A卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2018(B卷)": {
+    {
+      "name": "2018(B卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2017(A卷)": {
+    {
+      "name": "2017(A卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2017(B卷)": {
+    {
+      "name": "2017(B卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2016(A卷)": {
+    {
+      "name": "2016(A卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2016(B卷)": {
+    {
+      "name": "2016(B卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2015": {
+    {
+      "name": "2015",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2014": {
+    {
+      "name": "2014",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2013": {
+    {
+      "name": "2013",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2012": {
+    {
+      "name": "2012",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2011": {
+    {
+      "name": "2011",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2010": {
+    {
+      "name": "2010",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2009": {
+    {
+      "name": "2009",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

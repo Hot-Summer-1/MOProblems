@@ -1,15 +1,17 @@
 {
   "display_name": "女奥选拔",
-  "years": {
-    "2026浙江": {
+  "years": [
+    {
+      "name": "2026浙江",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2026山东": {
+    {
+      "name": "2026山东",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

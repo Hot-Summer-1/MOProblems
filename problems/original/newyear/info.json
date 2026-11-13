@@ -1,45 +1,53 @@
 {
   "display_name": "跨年题",
-  "years": {
-    "2026春节": {
+  "years": [
+    {
+      "name": "2026春节",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2026元旦": {
+    {
+      "name": "2026元旦",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025春节": {
+    {
+      "name": "2025春节",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025元旦": {
+    {
+      "name": "2025元旦",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024春节": {
+    {
+      "name": "2024春节",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024元旦": {
+    {
+      "name": "2024元旦",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023春节": {
+    {
+      "name": "2023春节",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023元旦": {
+    {
+      "name": "2023元旦",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

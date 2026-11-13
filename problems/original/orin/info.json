@@ -1,155 +1,185 @@
 {
   "display_name": "原创题数论",
-  "years": {
-    "数论291-300": {
+  "years": [
+    {
+      "name": "数论291-300",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论281-290": {
+    {
+      "name": "数论281-290",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论271-280": {
+    {
+      "name": "数论271-280",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论261-270": {
+    {
+      "name": "数论261-270",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论251-260": {
+    {
+      "name": "数论251-260",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论241-250": {
+    {
+      "name": "数论241-250",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论231-240": {
+    {
+      "name": "数论231-240",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论221-230": {
+    {
+      "name": "数论221-230",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论211-220": {
+    {
+      "name": "数论211-220",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论201-210": {
+    {
+      "name": "数论201-210",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论191-200": {
+    {
+      "name": "数论191-200",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论181-190": {
+    {
+      "name": "数论181-190",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论171-180": {
+    {
+      "name": "数论171-180",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论161-170": {
+    {
+      "name": "数论161-170",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论151-160": {
+    {
+      "name": "数论151-160",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论141-150": {
+    {
+      "name": "数论141-150",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论131-140": {
+    {
+      "name": "数论131-140",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论121-130": {
+    {
+      "name": "数论121-130",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论111-120": {
+    {
+      "name": "数论111-120",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论101-110": {
+    {
+      "name": "数论101-110",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论91-100": {
+    {
+      "name": "数论91-100",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论81-90": {
+    {
+      "name": "数论81-90",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论71-80": {
+    {
+      "name": "数论71-80",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论61-70": {
+    {
+      "name": "数论61-70",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论51-60": {
+    {
+      "name": "数论51-60",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论41-50": {
+    {
+      "name": "数论41-50",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论31-40": {
+    {
+      "name": "数论31-40",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论21-30": {
+    {
+      "name": "数论21-30",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论11-20": {
+    {
+      "name": "数论11-20",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "数论1-10": {
+    {
+      "name": "数论1-10",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

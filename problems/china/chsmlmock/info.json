@@ -1,75 +1,89 @@
 {
   "display_name": "二试模拟",
-  "years": {
-    "二试模拟14": {
+  "years": [
+    {
+      "name": "二试模拟14",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "二试模拟13": {
+    {
+      "name": "二试模拟13",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "二试模拟12": {
+    {
+      "name": "二试模拟12",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "二试模拟11": {
+    {
+      "name": "二试模拟11",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "二试模拟10": {
+    {
+      "name": "二试模拟10",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "二试模拟9": {
+    {
+      "name": "二试模拟9",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "二试模拟8": {
+    {
+      "name": "二试模拟8",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "二试模拟7": {
+    {
+      "name": "二试模拟7",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "二试模拟6": {
+    {
+      "name": "二试模拟6",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "二试模拟5": {
+    {
+      "name": "二试模拟5",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "二试模拟4": {
+    {
+      "name": "二试模拟4",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "二试模拟3": {
+    {
+      "name": "二试模拟3",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "二试模拟2": {
+    {
+      "name": "二试模拟2",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "二试模拟1": {
+    {
+      "name": "二试模拟1",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }

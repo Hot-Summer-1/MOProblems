@@ -33,18 +33,20 @@ problems/{source}/{name}/
 ```json
 {
   "display_name": "北京创新题",
-  "years": {
-    "2025(A卷)": {
+  "years": [
+    {
+      "name": "2025(A卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025(B卷)": {
+    {
+      "name": "2025(B卷)",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }
 ```
 
@@ -53,16 +55,17 @@ problems/{source}/{name}/
 | 字段 | 类型 | 说明 | 示例 |
 |---|---|---|---|
 | `display_name` | `string` | 竞赛的中文全称，用于展示 | `"北京创新题"` |
-| `years` | `object` | 以年份/届次为键的题目信息对象，键的顺序即展示顺序 | 见下 |
+| `years` | `array` | 年份/届次列表，数组顺序即展示顺序 | 见下 |
 
 `source` 目录共 4 类：`china`（国内）、`abroad`（国际）、`university`（大学）、`original`（原创）。
 
 ### 年份条目字段
 
-`years` 中每个年份对应一个对象，包含 3 个字段：
+`years` 中每个元素对应一个年份，包含 4 个字段：
 
 | 字段 | 类型 | 说明 |
 |---|---|---|
+| `name` | `string` | 年份/届次，同一竞赛内不可重复 |
 | `count` | `int` | 该年份题目数量，默认为 0 |
 | `no_problem_content` | `bool` | 是否暂无题目内容，`true` 表示尚未录入，默认为 `false` |
 | `begin_index` | `int` | 题目文件名称起始值，默认为 0 |

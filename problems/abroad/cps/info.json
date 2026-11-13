@@ -1,80 +1,95 @@
 {
   "display_name": "捷克波兰斯洛伐克数学竞赛",
-  "years": {
-    "2026": {
+  "years": [
+    {
+      "name": "2026",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2025": {
+    {
+      "name": "2025",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2024": {
+    {
+      "name": "2024",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2023": {
+    {
+      "name": "2023",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2022": {
+    {
+      "name": "2022",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2021": {
+    {
+      "name": "2021",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2020": {
+    {
+      "name": "2020",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2019": {
+    {
+      "name": "2019",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2018": {
+    {
+      "name": "2018",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2017": {
+    {
+      "name": "2017",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2016": {
+    {
+      "name": "2016",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2015": {
+    {
+      "name": "2015",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2014": {
+    {
+      "name": "2014",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2013": {
+    {
+      "name": "2013",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     },
-    "2012": {
+    {
+      "name": "2012",
       "count": 0,
       "no_problem_content": true,
       "begin_index": 0
     }
-  }
+  ]
 }
