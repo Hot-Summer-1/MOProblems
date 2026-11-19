@@ -76,12 +76,12 @@ def check_files(folder, years, errors, warnings):
         return
 
     present = {
-        int(f[:-3]) for f in files
-        if f.endswith(".md") and f[:-3].isdigit()
+        int(f[:-5]) for f in files
+        if f.endswith(".html") and f[:-5].isdigit()
     }
     unknown_files = [
         f for f in files
-        if f != "info.json" and not (f.endswith(".md") and f[:-3].isdigit())
+        if f != "info.json" and not (f.endswith(".html") and f[:-5].isdigit())
     ]
     if unknown_files:
         warnings.append(f"{name}: 存在未识别的文件 {sorted(unknown_files)}")
@@ -103,20 +103,20 @@ def check_files(folder, years, errors, warnings):
             if found:
                 warnings.append(
                     f"{name} 的 year='{year_name}': no_problem_content=true 但存在题目文件 "
-                    f"{[f'{i}.md' for i in found]}"
+                    f"{[f'{i}.html' for i in found]}"
                 )
         else:
             missing = sorted(expected - present)
             if missing:
                 errors.append(
                     f"{name} 的 year='{year_name}': 缺少题目文件 "
-                    f"{[f'{i}.md' for i in missing]}"
+                    f"{[f'{i}.html' for i in missing]}"
                 )
         covered |= expected
 
     extra = sorted(present - covered)
     if extra:
-        warnings.append(f"{name}: 存在不属于任何年份的题目文件 {[f'{i}.md' for i in extra]}")
+        warnings.append(f"{name}: 存在不属于任何年份的题目文件 {[f'{i}.html' for i in extra]}")
 
 
 def check_info(info_path, errors, warnings):

@@ -1,6 +1,6 @@
 # MOProblems
 
-常见数学竞赛问题库（与数之谜同步更新）
+常见数学竞赛问题库（与数之谜同步更新）。题目正文以 HTML 格式存储，数学公式转换为 MathML，由浏览器原生渲染。
 
 ## 目录结构
 
@@ -17,13 +17,14 @@ problems/
 ```
 problems/{source}/{name}/
 ├── info.json     # 竞赛元数据及各年份题目信息
-├── 0.md          # 题目文件（文件名由 begin_index 决定）
+├── 0.html        # 题目文件（文件名由 begin_index 决定）
 └── ...
 ```
 
 `tools/` 目录包含项目辅助工具：
 
 - **`merge_temp.py`** — 将 `temp.json`（API 原始响应）中的比赛合并到对应 `problems/{source}/{name}/info.json`，自动创建目录、补充缺失年份。
+- **`md_to_html.py`** — 将题目 Markdown 文件批量转换为 HTML，公式转换为 MathML 由浏览器原生渲染，默认删除原 `.md` 文件。需要先安装依赖：`pip install markdown latex2mathml`。
 - **`check_valid.py`** — 校验所有 `info.json` 的结构、字段、年份、题目文件对应关系，以及 name/display_name 唯一性。
 
 ## info.json 结构
@@ -70,4 +71,4 @@ problems/{source}/{name}/
 | `no_problem_content` | `bool` | 是否暂无题目内容，`true` 表示尚未录入，默认为 `false` |
 | `begin_index` | `int` | 题目文件名称起始值，默认为 0 |
 
-题目文件命名为 `{begin_index + i}.md`（`i = 0..count-1`）。例如 `begin_index` 为 0、`count` 为 6 时，题目文件为 `0.md` 至 `5.md`。当 `no_problem_content` 为 `true` 时，`count` 可表示该年份应有的题目数量，但对应文件暂不存在。
+题目文件命名为 `{begin_index + i}.html`（`i = 0..count-1`）。例如 `begin_index` 为 0、`count` 为 6 时，题目文件为 `0.html` 至 `5.html`。文件内容为 HTML 片段，其中数学公式已由 LaTeX 转换为 MathML，浏览器可直接渲染。当 `no_problem_content` 为 `true` 时，`count` 可表示该年份应有的题目数量，但对应文件暂不存在。
